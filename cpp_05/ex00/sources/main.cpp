@@ -3,7 +3,6 @@
 
 int main()
 {
-{
     try
     {
         Bureaucrat bureaucrat1("John", 1);
@@ -51,5 +50,4 @@ int main()
 	std::cout << "...After Imen" << std::endl;
 
     return 0;
-}
 }
