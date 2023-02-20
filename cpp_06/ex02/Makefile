@@ -1,7 +1,7 @@
 CC			= c++ -Wall -Wextra -Werror -std=c++98
 RM			= rm -rf
-NAME		= ./Serializer
-NAME_SHORT	= SERIALISER
+NAME		= ./True_Form
+NAME_SHORT	= TRUE_FORM
 
 INCS_DIR	= includes
 MAIN_INC	= -I$(INCS_DIR)
