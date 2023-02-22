@@ -27,25 +27,25 @@ void	handlechar(char x)
 void	handlefloat(float x)
 {
 	int	Vint = static_cast<int>(x);
-	std::cout << "float : " << x << "f" << std::endl;
+	std::cout << "float : " << std::fixed << std::setprecision(1) << x << "f" << std::endl;
 	if (isprint(Vint))
 		std::cout << "char : " << static_cast<char>(Vint) << std::endl;
 	else
 		std::cout << "char : Non displayable" << std::endl;
 	std::cout << "int : " << Vint << std::endl;
-	std::cout << "double : " << static_cast<double>(x) << std::endl;
+	std::cout << "double : " << std::fixed << std::setprecision(1) << static_cast<double>(x) << std::endl;
 }
 
 void	handledouble(double x)
 {
 	int	Vint = static_cast<int>(x);
-	std::cout << "double : " << x << std::endl;
+	std::cout << "double : " << std::fixed << std::setprecision(1) << x << std::endl;
 	if (isprint(Vint))
 		std::cout << "char : " << static_cast<char>(Vint) << std::endl;
 	else
 		std::cout << "char : Non displayable" << std::endl;
 	std::cout << "int : " << Vint << std::endl;
-	std::cout << "float : " << static_cast<float>(x) << "f" << std::endl;
+	std::cout << "float : " << std::fixed << std::setprecision(1) << static_cast<float>(x) << "f" << std::endl;
 }
 
 void	handle_other( std::string &argv)

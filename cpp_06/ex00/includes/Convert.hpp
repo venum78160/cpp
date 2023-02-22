@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <cctype>
 #include <cmath>
+#include <iomanip>
 
 #define CHAR 0
 #define INT 1
