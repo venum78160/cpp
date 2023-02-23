@@ -1,6 +1,5 @@
 #include "../includes/Span.hpp"
 
-
 int main( void )
 {
 	Span test(1);
