@@ -1,7 +1,7 @@
 CC			= c++ -Wall -Wextra -Werror -std=c++98
 RM			= rm -rf
-NAME		= ./btc
-NAME_SHORT	= BITCOIN_EXCHANGE
+NAME		= ./RPN
+NAME_SHORT	= RPN
 
 INCS_DIR	= includes
 MAIN_INC	= -I$(INCS_DIR)
