@@ -1,0 +1,10 @@
+#pragma once
+#include <vector>
+#include <list>
+#include <algorithm>
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <map>
+#include <cstring>
+#include <cstdlib>
