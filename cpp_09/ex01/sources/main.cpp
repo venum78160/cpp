@@ -50,10 +50,10 @@ int main(int argc, char **argv)
 		if(isdigit(token[0]))
 		{
 			int num = atoi(token);
-			std::cerr << "Debug[]: num = "<< num << " my_stack.size = "<< my_stack.size()<< std::endl;
+			// std::cerr << "Debug[]: num = "<< num << " my_stack.size = "<< my_stack.size()<< std::endl;
 			if (num >= 0 && num <= 9)
 			{
-				std::cerr << "Debug[]: here num = " << num << std::endl;
+				// std::cerr << "Debug[]: here num = " << num << std::endl;
 				my_stack.push(num);
 			}
 			else if (num < 100 && num >= 0 && my_stack.size() == 0)
